@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b00631b6-d732-4c73-8a4e-b75c72ccd37e" name="Changes" comment="Project initiation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day01/CalibrationDocument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day01/Digit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/utils/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day01/input01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day01/CalibrationDocumentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b00631b6-d732-4c73-8a4e-b75c72ccd37e" name="Changes" comment="day 1 - code cleanup">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day01/Day01Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/CubeColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/CubeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/Cubes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/Day02Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/GameConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/day02/ScoreAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day02/input01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/CubeColorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/CubeSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/CubesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/GameConfigurationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dk/reibke/day02/ScoreAggregatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/reibke/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/reibke/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +53,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="Record" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,6 +76,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -83,11 +93,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dk.reibke.day02" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="dk.reibke.day02" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dk.reibke.day02" />
       <recent name="dk.reibke.day01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.reibke.day02" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -104,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalibrationDocumentTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CubeSetTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dk.reibke.day01.CalibrationDocumentTest&quot;" />
+            <option value="&quot;dk.reibke.day02.CubeSetTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -128,7 +148,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalibrationDocumentTest.lineValueFancy (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -141,7 +161,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dk.reibke.day01.CalibrationDocumentTest.lineValueFancy&quot;" />
+            <option value="&quot;dk.reibke.day02.GameTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +172,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalibrationDocumentTest.lineValueFancy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ScoreAggregatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -165,7 +185,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;dk.reibke.day01.CalibrationDocumentTest.lineValueFancy[1]&quot;" />
+            <option value="&quot;dk.reibke.day02.ScoreAggregatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,7 +196,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalibrationDocumentTest.lineValueFancy2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'AdventOfCode2023.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -188,8 +208,6 @@
         <option name="taskNames">
           <list>
             <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;dk.reibke.day01.CalibrationDocumentTest.lineValueFancy2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -202,10 +220,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalibrationDocumentTest" />
-        <item itemvalue="Gradle.CalibrationDocumentTest.lineValueFancy2" />
-        <item itemvalue="Gradle.CalibrationDocumentTest.lineValueFancy (1)" />
-        <item itemvalue="Gradle.CalibrationDocumentTest.lineValueFancy" />
+        <item itemvalue="Gradle.Tests in 'AdventOfCode2023.test'" />
+        <item itemvalue="Gradle.ScoreAggregatorTest" />
+        <item itemvalue="Gradle.GameTest" />
+        <item itemvalue="Gradle.CubeSetTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -218,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701513897181</updated>
-      <workItem from="1701513898184" duration="10357000" />
+      <workItem from="1701513898184" duration="16756000" />
     </task>
     <task id="LOCAL-00001" summary="Project initiation">
       <option name="closed" value="true" />
@@ -228,7 +246,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701516629578</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 1">
+      <option name="closed" value="true" />
+      <created>1701548266855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701548266855</updated>
+    </task>
+    <task id="LOCAL-00003" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1701548333501</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701548333501</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day 1 - code cleanup">
+      <option name="closed" value="true" />
+      <created>1701548374120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701548374120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +278,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project initiation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project initiation" />
+    <MESSAGE value="Day 1" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="day 1 - code cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 1 - code cleanup" />
   </component>
 </project>
