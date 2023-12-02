@@ -3,7 +3,6 @@ package dk.reibke.day01;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.BinaryOperator;
 import java.util.stream.Collectors;
 
 public enum Digit {

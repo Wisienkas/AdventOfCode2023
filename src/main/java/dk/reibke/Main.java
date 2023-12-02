@@ -17,10 +17,10 @@ public class Main {
         var calibrationDocument = new CalibrationDocument();
         Stream<String> lines = new FileReader().readLines("day01/input01.txt");
         Long sumLines = calibrationDocument.sumLines(lines, calibrationDocument::findDigitInLine);
-        System.out.println(String.format("Result for day 01, task 01 = [%s]", sumLines));
+        System.out.printf("Result for day 01, task 01 = [%s]%n", sumLines);
 
         lines = new FileReader().readLines("day01/input01.txt");
         Long sumFancyLines = calibrationDocument.sumLines(lines, calibrationDocument::findGenericDigitsInLine);
-        System.out.println(String.format("Result for day 01, task 02 = [%s]", sumFancyLines));
+        System.out.printf("Result for day 01, task 02 = [%s]%n", sumFancyLines);
     }
 }

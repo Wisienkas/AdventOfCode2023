@@ -3,7 +3,6 @@ package dk.reibke.day01;
 import java.util.List;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
