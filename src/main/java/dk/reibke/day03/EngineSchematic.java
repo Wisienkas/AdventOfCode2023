@@ -1,5 +1,7 @@
 package dk.reibke.day03;
 
+import dk.reibke.utils.Pair;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -5,10 +5,10 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static dk.reibke.utils.Regexes.NUMBER_REGEX;
+
 public class SchematicLineAnalyzer {
 
-
-    public static final Pattern NUMBER_REGEX = Pattern.compile("([\\d]+)");
     public static final Pattern SYMBOL_REGEX = Pattern.compile("([^0-9a-zA-Z\\\\.])");
     private final String line;
     private final int lineNumber;

@@ -5,10 +5,12 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static dk.reibke.utils.Regexes.NUMBER_REGEX;
+
 public record Card(int cardNumber, List<Integer> winningNumbers, List<Integer> numbers) {
 
     public static final Pattern CARD_SECTION_REGEX = Pattern.compile("Card\\s+(?<cardNumber>\\d+):(?<winningNumbers>.+)\\|(?<numbers>.+)");
-    public static final Pattern NUMBER_REGEX = Pattern.compile("(\\d+)");
+
 
     public static Card fromLine(String line) {
         Matcher matcher = CARD_SECTION_REGEX.matcher(line);
